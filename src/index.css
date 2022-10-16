@@ -1,0 +1,229 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(https://img.freepik.com/premium-vector/pizza-ingredients-background-linear-graphic-tomato-garlic-basil-olive-pepper-mushroom-leaf-seamless-pattern_84749-2068.jpg);
+    font-family: MingLiU-ExtB;
+}
+
+.navbarImg{
+  width: 10%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: large;
+    font-weight: bold;
+    gap: 20rem;
+    background: rgb(245, 113, 6);
+    height: 8vh;
+  }
+
+.result {
+  color: #d2f9b3;
+  background-color: #00000090;
+  padding: 0.5rem;
+  border-radius: 15rem;
+}
+
+.active {
+    color: #f9d6b3;
+    background-color: #c7911ca0;
+    padding: 0.5rem;
+    border-radius: 15rem;
+    text-decoration: none;
+  }
+
+.undefined {
+    text-decoration: none;
+    color: #c1e1fd;
+    background-color: #00000090;
+    border-radius: 15rem;
+    padding: 0.5rem;
+    width: 13%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: url(https://www.andreapizzastoneham.com/files/images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 15vh;
+  color: white;
+  /* opacity: 0.6; */
+  /* color: rgb(246, 240, 238); */
+  font-size: 1.5rem;
+}
+
+h1, h3, h4 {
+    margin: 0%;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 25px;
+  }
+
+.img-card {
+    margin-top: 1rem;
+    height: 260px;
+    width: 300px;
+    border-radius: 3rem;
+    border: #eb7405 4px solid;
+  }
+
+  .text-card {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: #111112f2;
+    border-radius: 30px;
+    height: 300px;
+    width: 275px;
+  }
+
+  .btninfo {
+    padding: 0.4rem;
+    width: 6.5rem;
+    border-radius: 5rem;
+    margin: 1rem;
+    color: antiquewhite;
+    font-weight: bold;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+
+  .btnadd {
+    padding: 0.4rem;
+    width: 6.5rem;
+    border-radius: 5rem;
+    margin: 1rem;
+    color: antiquewhite;
+    font-weight: bold;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+
+  .container-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  .image-desc {
+    display: flex;
+    width: 30%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .name-detail {
+    display: flex;
+    align-items: center;
+  }
+
+  .NamedescPizza{
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .container-trolley {
+    text-align: center;
+    align-items: center;
+  }
+
+  .detail-imag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1px 20px 1px 10px;
+  }
+
+  .container-name {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .name {
+    height: 120px;
+  }
+
+  .pizza-img {
+    width: 20%;
+    margin-top: 5%;
+    border-radius: 30%;
+    /* height: 100px; */
+  }
+
+  .price-result {
+    margin: 0.5rem;
+  }
+
+  .container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .btnmore {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: #02ac02b3;
+    border-radius: 5px;
+  }
+
+  .btnrest {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: #db0101b4;
+    border-radius: 5px;
+  }
+
+  .resultcart {
+    display: flex;
+    color: #3a5739;
+    padding: 0.5rem;
+  }
+
+  .btnfinal {
+
+    background-color: #039803c8;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+  }
